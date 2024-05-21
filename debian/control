@@ -10,9 +10,10 @@ Maintainer: Pexip AS <packaging@pexip.com>
 XSBC-Pexip-Original-Maintainer: Debian Rust Maintainers <pkg-rust-maintainers@alioth-lists.debian.net>
 XSBC-Pexip-Original-Uploaders:
  Sylvestre Ledru <sylvestre@debian.org>
-Standards-Version: 4.5.1
+Standards-Version: 4.6.1
 Vcs-Git: https://salsa.debian.org/rust-team/debcargo-conf.git [src/unindent]
 Vcs-Browser: https://salsa.debian.org/rust-team/debcargo-conf/tree/master/src/unindent
+X-Cargo-Crate: unindent
 Rules-Requires-Root: no
 XS-Pexip-Upstream: http://ftp.debian.org/debian/ trixie
 
@@ -25,10 +26,10 @@ Provides:
  librust-unindent+default-dev (= ${binary:Version}),
  librust-unindent-0-dev (= ${binary:Version}),
  librust-unindent-0+default-dev (= ${binary:Version}),
- librust-unindent-0.1-dev (= ${binary:Version}),
- librust-unindent-0.1+default-dev (= ${binary:Version}),
- librust-unindent-0.1.8-dev (= ${binary:Version}),
- librust-unindent-0.1.8+default-dev (= ${binary:Version})
+ librust-unindent-0.2-dev (= ${binary:Version}),
+ librust-unindent-0.2+default-dev (= ${binary:Version}),
+ librust-unindent-0.2.1-dev (= ${binary:Version}),
+ librust-unindent-0.2.1+default-dev (= ${binary:Version})
 Description: Remove a column of leading whitespace from a string - Rust source code
  This package contains the source for the Rust unindent crate, packaged by
  debcargo for use with cargo and dh-cargo.

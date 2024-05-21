@@ -10,9 +10,9 @@
 # See Cargo.toml.orig for the original contents.
 
 [package]
-edition = "2018"
+edition = "2021"
 name = "unindent"
-version = "0.1.8"
+version = "0.2.1"
 authors = ["David Tolnay <dtolnay@gmail.com>"]
 description = "Remove a column of leading whitespace from a string"
 documentation = "https://docs.rs/unindent"
@@ -24,8 +24,12 @@ keywords = [
     "string",
     "literal",
 ]
+categories = ["text-processing"]
 license = "MIT OR Apache-2.0"
 repository = "https://github.com/dtolnay/indoc"
 
 [package.metadata.docs.rs]
 targets = ["x86_64-unknown-linux-gnu"]
+
+[lib]
+doc-scrape-examples = false
